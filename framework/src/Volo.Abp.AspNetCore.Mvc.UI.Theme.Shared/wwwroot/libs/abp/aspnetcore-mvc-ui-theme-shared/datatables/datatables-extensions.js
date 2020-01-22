@@ -304,7 +304,7 @@
 
                 //Text filter
                 if (requestData.search && requestData.search.value !== "") {
-                    input.filter = requestData.search.value;
+                    input.keyword = requestData.search.value;
                 }
 
                 if (callback) {
